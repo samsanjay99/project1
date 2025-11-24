@@ -1,0 +1,88 @@
+/* Background Gradient */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, #6a8bff, #8b5cf6);
+}
+
+/* Card Container */
+.card {
+    background: white;
+    width: 320px;
+    text-align: center;
+    padding: 30px 30px 40px;
+    border-radius: 18px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* Hover effect */
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.22);
+}
+
+/* Avatar Image */
+.avatar {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 4px solid #4b6bdc;
+    padding: 4px;
+}
+
+/* Name Style */
+.name {
+    margin-top: 16px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #222;
+}
+
+/* Description text */
+.desc {
+    font-size: 14px;
+    color: #555;
+    width: 70%;
+    margin: 0 auto 20px;
+    line-height: 1.5;
+    padding: 30px;
+    
+}
+
+/* Social buttons container */
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Buttons styling */
+.btn {
+    padding: 8px 14px;
+    font-size: 14px;
+    color: #4c63ff;
+    border: 1.8px solid #4c63ff;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+/* Hover effect */
+.btn:hover {
+    background: #4c63ff;
+    color: white;
+    box-shadow: 0 4px 12px rgba(76, 99, 255, 0.4);
+    transform: scale(1.1);
+}
+
+.avatar:hover {
+  transition: 0.3s ease;
+  transform:scale(1.1);
+
+}
